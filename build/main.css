@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 300%;
+}
+
+.board {
+  text-align: center;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.row {
+  clear: both;
+  overflow: hidden;
+}
+
+.square {
+  float: left;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.bottom {
+  border-bottom: 3px solid grey;
+}
+
+.right {
+  border-right: 3px solid grey;
+}
+
+.x {
+  background: url(images/x.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.o {
+  background: url(images/o.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.winner {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 300%;
+  color: crimson;
+  text-decoration: underline;
+}
+
+.playAgain {
+  font-size: 100%;
+  border-radius: 10%;
+  color: black;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+
+
+
+
